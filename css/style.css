@@ -1,7 +1,32 @@
 *{
-    margin: 0;  
+    margin: auto;  
     text-align: center;
+    box-sizing: border-box;
 }
+h1,
+h2,
+h3,
+h4 {
+  margin: 0.1;
+}
+h1 {
+  font-size: 2rem;
+  display: none;
+}
+h2 {
+  font-size: 1.5rem;
+  padding-left: 20px;
+}
+h3 {
+  font-size: 1.2rem;
+  padding-left: 40px;
+}
+h4 {
+  font-size: 1rem;
+  font-style: italic;
+  padding-left: 60px;   
+}
+
 .main-header{
     background-color: palegreen;
     height: 150px;
@@ -23,6 +48,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 .block_gal{
     background-color: #ffb3b6;
@@ -32,8 +58,9 @@
     column-gap: 10px;
     row-gap: 10px;
     height: 510px;
-    width: 1150px;
+    width: 1170px;
     padding: 10px; 
+   
 }
 .b1{
     background-color: aqua;
@@ -45,6 +72,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;  
+    
 }
 .b2{
     background-color: aqua;
@@ -56,6 +85,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;  
 }
 .b3{
     background-color: aqua;
@@ -67,6 +97,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;  
 }
 .b4{
     background-color: aqua;
@@ -78,6 +109,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;  
 }
 .b5{
     background-color: aqua;
@@ -89,6 +121,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;  
 }
 .b6{
     background-color: aqua;
@@ -98,6 +131,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;  
 }
 .b7{
     background-color: aqua;
@@ -105,6 +139,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;  
 }
 .b8{
     background-color: aqua;
@@ -112,6 +147,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;  
 }
 .b9{
     background-color: aqua;
@@ -119,6 +155,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;  
 }
 .b10{
     background-color: aqua;
@@ -126,6 +163,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;  
 }
 .b11{
     background-color: aqua;
@@ -133,6 +171,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;  
 }
 .b12{
     background-color: aqua;
@@ -142,6 +181,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;  
 }
 .b13{
     background-color: aqua;
@@ -151,6 +191,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;  
 }
 .t1{
     grid-column-start: 2;
@@ -159,6 +200,7 @@
     display: flex;
     justify-content: center;
     align-items: start;
+   
 }
 .t2{
     grid-column-start: 2;
@@ -168,20 +210,23 @@
     justify-content: center;
     align-items: center;
 }
-.zdvig{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.block_vidg{
-    background-color: lightsalmon;
-    width: 1170px;
+.block_2{
+    max-width: 1170px;
     height: 300px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(255, 122, 202);
+}
+.block_vidg{
+    background-color: lightsalmon;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 .block_gal_under{
     text-align: center;
@@ -197,7 +242,7 @@
     column-gap: 10px;
     row-gap: 10px;
     height: 30px;
-    width: 1150px;
+    width: 1170px;
     padding: 10px; 
 }
 .footer{
